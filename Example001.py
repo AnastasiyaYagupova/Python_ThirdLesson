@@ -12,19 +12,6 @@ B, C, M, P – 3 очка; F, H, V, W, Y – 4 очка; K – 5 очков; J, 
 ноутбук
     12
 """
-# print("Введите слово")
-"""
-def fun(x):
-    for key in dct:
-        if x in key:
-            return dct.get(key)
- 
-dct = {
-    'AАEIOULNSTRД' : 1, 'DG' : 2, 'BCMP' : 3,
-    'FHVWY' : 4, 'K' : 5, 'JX' : 8, 'QZ' :10
-    }
-print(sum(map(fun, input())))
-"""
 dicENG = {1:'AEIOULNSTR',
           2:'DG',
           3:'BCMP',
