@@ -19,25 +19,6 @@ X = int(input("Введите число "))
 print(list)
 
 count = 1
-"""
-for i in range(N):
-    if X == list[i]:
-        print(list[i]) 
-        break
-    elif X - count == list[i]:
-        print(list[i])
-        break
-    elif X + count == list[i]:
-        print(list[i])
-        break
-    else: count +=1
-def fun(Array,X,count):
-    for i in range(N):
-    if X == list[i] or X - count == list[i] or X + count == list[i] :
-        print(list[i]) 
-        break
- 
-"""
 break_out_flag = False
 for count in range(N):
     for i in range(N):
